@@ -1,0 +1,96 @@
+{
+  "company": [
+    {
+      "id": 1,
+      "name": "TATA",
+      "email": "tata@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "phoneNumber": 1234567890,
+      "profession": "Bussiness"
+    },
+    {
+      "id": 2,
+      "name": "Amul",
+      "email": "Amul@gmail.com",
+      "password": "amul123",
+      "confirmPassword": "amul123",
+      "phoneNumber": 123123123,
+      "profession": "Dairy"
+    },
+    {
+      "id": 3,
+      "name": "Apollo",
+      "email": "apollo@gmail.com",
+      "password": "apollo",
+      "confirmPassword": "apollo",
+      "phoneNumber": 1234567890,
+      "profession": "Start"
+    }
+  ],
+  "brand": [
+    {
+      "id": 1,
+      "company": "TATA",
+      "name": "TATA Steel",
+      "mainContact": "tata content",
+      "email": "tatasteel@gmail.com",
+      "officerName": "john",
+      "officerEmail": "john@gmail.com",
+      "derectNumber": 44,
+      "creditCard": 5555666677778888,
+      "postalCode": "India",
+      "phoneNumber": 1234567890
+    }
+  ],
+  "Store": [
+    {
+      "id": 1,
+      "company": "TATA",
+      "brand": "TATA Steel",
+      "storeName": "Aravind",
+      "address": "200/201 main cercel",
+      "email": "aravindl@gmail.com",
+      "phoneNumber": 1234567890
+    }
+  ],
+  "zone": [
+    {
+      "id": 1,
+      "company": "TATA",
+      "brand": "TATA Steel",
+      "store": "store 1",
+      "zoneName": "zone 1",
+      "address": "118/119",
+      "email": "zone@gmail.com",
+      "phoneNumber": 9999888877
+    }
+  ],
+  "queue": [
+    {
+      "id": 1,
+      "englishName": "Stainlessway",
+      "frenchName": "Inox",
+      "address": "112/113 main bazar",
+      "timeTaken": 45,
+      "activeDateFrom": "2022-03-31T18:30:00.000Z",
+      "activeDateTo": "2022-04-29T18:30:00.000Z",
+      "activeDay": [
+        " Monday",
+        " Tuesday",
+        " Wednesday",
+        " Thursday",
+        " Friday"
+      ],
+      "offDay": "2022-04-19T18:30:00.000Z",
+      "welcomeMSG": "This is Welcome Message",
+      "requestMSG": "This is Request Message",
+      "confirmMSG": "This is Confirmation Message\n",
+      "acceptMSG": "This is Accepted Message",
+      "denialMSG": "This is Denial Message",
+      "completeMSG": "This is Welcome Message",
+      "headerMSG": "This is Header Message",
+      "footerMSG": "This is Footer Message"
+    }
+  ]
+}
